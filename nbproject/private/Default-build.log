@@ -1,0 +1,133 @@
+Making all in odb
+make[1]: ingresso nella directory "/home/iot/NetBeansProjects/libodb-2.4.0/odb"
+/usr/bin/make  all-am
+make[2]: ingresso nella directory "/home/iot/NetBeansProjects/libodb-2.4.0/odb"
+depbase=`echo callback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT callback.lo -MD -MP -MF $depbase.Tpo -c -o callback.lo callback.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT callback.lo -MD -MP -MF .deps/callback.Tpo -c callback.cxx  -fPIC -DPIC -o .libs/callback.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT callback.lo -MD -MP -MF .deps/callback.Tpo -c callback.cxx -o callback.o >/dev/null 2>&1
+depbase=`echo exceptions.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT exceptions.lo -MD -MP -MF $depbase.Tpo -c -o exceptions.lo exceptions.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT exceptions.lo -MD -MP -MF .deps/exceptions.Tpo -c exceptions.cxx  -fPIC -DPIC -o .libs/exceptions.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT exceptions.lo -MD -MP -MF .deps/exceptions.Tpo -c exceptions.cxx -o exceptions.o >/dev/null 2>&1
+depbase=`echo database.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT database.lo -MD -MP -MF $depbase.Tpo -c -o database.lo database.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT database.lo -MD -MP -MF .deps/database.Tpo -c database.cxx  -fPIC -DPIC -o .libs/database.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT database.lo -MD -MP -MF .deps/database.Tpo -c database.cxx -o database.o >/dev/null 2>&1
+depbase=`echo vector-impl.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT vector-impl.lo -MD -MP -MF $depbase.Tpo -c -o vector-impl.lo vector-impl.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT vector-impl.lo -MD -MP -MF .deps/vector-impl.Tpo -c vector-impl.cxx  -fPIC -DPIC -o .libs/vector-impl.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT vector-impl.lo -MD -MP -MF .deps/vector-impl.Tpo -c vector-impl.cxx -o vector-impl.o >/dev/null 2>&1
+depbase=`echo connection.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT connection.lo -MD -MP -MF $depbase.Tpo -c -o connection.lo connection.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c connection.cxx  -fPIC -DPIC -o .libs/connection.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c connection.cxx -o connection.o >/dev/null 2>&1
+depbase=`echo lazy-ptr-impl.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT lazy-ptr-impl.lo -MD -MP -MF $depbase.Tpo -c -o lazy-ptr-impl.lo lazy-ptr-impl.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT lazy-ptr-impl.lo -MD -MP -MF .deps/lazy-ptr-impl.Tpo -c lazy-ptr-impl.cxx  -fPIC -DPIC -o .libs/lazy-ptr-impl.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT lazy-ptr-impl.lo -MD -MP -MF .deps/lazy-ptr-impl.Tpo -c lazy-ptr-impl.cxx -o lazy-ptr-impl.o >/dev/null 2>&1
+depbase=`echo prepared-query.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT prepared-query.lo -MD -MP -MF $depbase.Tpo -c -o prepared-query.lo prepared-query.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT prepared-query.lo -MD -MP -MF .deps/prepared-query.Tpo -c prepared-query.cxx  -fPIC -DPIC -o .libs/prepared-query.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT prepared-query.lo -MD -MP -MF .deps/prepared-query.Tpo -c prepared-query.cxx -o prepared-query.o >/dev/null 2>&1
+depbase=`echo query-dynamic.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT query-dynamic.lo -MD -MP -MF $depbase.Tpo -c -o query-dynamic.lo query-dynamic.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT query-dynamic.lo -MD -MP -MF .deps/query-dynamic.Tpo -c query-dynamic.cxx  -fPIC -DPIC -o .libs/query-dynamic.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT query-dynamic.lo -MD -MP -MF .deps/query-dynamic.Tpo -c query-dynamic.cxx -o query-dynamic.o >/dev/null 2>&1
+depbase=`echo result.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT result.lo -MD -MP -MF $depbase.Tpo -c -o result.lo result.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT result.lo -MD -MP -MF .deps/result.Tpo -c result.cxx  -fPIC -DPIC -o .libs/result.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT result.lo -MD -MP -MF .deps/result.Tpo -c result.cxx -o result.o >/dev/null 2>&1
+depbase=`echo schema-catalog.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT schema-catalog.lo -MD -MP -MF $depbase.Tpo -c -o schema-catalog.lo schema-catalog.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT schema-catalog.lo -MD -MP -MF .deps/schema-catalog.Tpo -c schema-catalog.cxx  -fPIC -DPIC -o .libs/schema-catalog.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT schema-catalog.lo -MD -MP -MF .deps/schema-catalog.Tpo -c schema-catalog.cxx -o schema-catalog.o >/dev/null 2>&1
+depbase=`echo section.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT section.lo -MD -MP -MF $depbase.Tpo -c -o section.lo section.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT section.lo -MD -MP -MF .deps/section.Tpo -c section.cxx  -fPIC -DPIC -o .libs/section.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT section.lo -MD -MP -MF .deps/section.Tpo -c section.cxx -o section.o >/dev/null 2>&1
+depbase=`echo session.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT session.lo -MD -MP -MF $depbase.Tpo -c -o session.lo session.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT session.lo -MD -MP -MF .deps/session.Tpo -c session.cxx  -fPIC -DPIC -o .libs/session.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT session.lo -MD -MP -MF .deps/session.Tpo -c session.cxx -o session.o >/dev/null 2>&1
+depbase=`echo statement.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT statement.lo -MD -MP -MF $depbase.Tpo -c -o statement.lo statement.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT statement.lo -MD -MP -MF .deps/statement.Tpo -c statement.cxx  -fPIC -DPIC -o .libs/statement.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT statement.lo -MD -MP -MF .deps/statement.Tpo -c statement.cxx -o statement.o >/dev/null 2>&1
+depbase=`echo statement-processing.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT statement-processing.lo -MD -MP -MF $depbase.Tpo -c -o statement-processing.lo statement-processing.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT statement-processing.lo -MD -MP -MF .deps/statement-processing.Tpo -c statement-processing.cxx  -fPIC -DPIC -o .libs/statement-processing.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT statement-processing.lo -MD -MP -MF .deps/statement-processing.Tpo -c statement-processing.cxx -o statement-processing.o >/dev/null 2>&1
+depbase=`echo tracer.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT tracer.lo -MD -MP -MF $depbase.Tpo -c -o tracer.lo tracer.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT tracer.lo -MD -MP -MF .deps/tracer.Tpo -c tracer.cxx  -fPIC -DPIC -o .libs/tracer.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT tracer.lo -MD -MP -MF .deps/tracer.Tpo -c tracer.cxx -o tracer.o >/dev/null 2>&1
+depbase=`echo transaction.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT transaction.lo -MD -MP -MF $depbase.Tpo -c -o transaction.lo transaction.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT transaction.lo -MD -MP -MF .deps/transaction.Tpo -c transaction.cxx  -fPIC -DPIC -o .libs/transaction.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT transaction.lo -MD -MP -MF .deps/transaction.Tpo -c transaction.cxx -o transaction.o >/dev/null 2>&1
+depbase=`echo details/buffer.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/buffer.lo -MD -MP -MF $depbase.Tpo -c -o details/buffer.lo details/buffer.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/buffer.lo -MD -MP -MF details/.deps/buffer.Tpo -c details/buffer.cxx  -fPIC -DPIC -o details/.libs/buffer.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/buffer.lo -MD -MP -MF details/.deps/buffer.Tpo -c details/buffer.cxx -o details/buffer.o >/dev/null 2>&1
+depbase=`echo details/condition.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/condition.lo -MD -MP -MF $depbase.Tpo -c -o details/condition.lo details/condition.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/condition.lo -MD -MP -MF details/.deps/condition.Tpo -c details/condition.cxx  -fPIC -DPIC -o details/.libs/condition.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/condition.lo -MD -MP -MF details/.deps/condition.Tpo -c details/condition.cxx -o details/condition.o >/dev/null 2>&1
+depbase=`echo details/lock.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/lock.lo -MD -MP -MF $depbase.Tpo -c -o details/lock.lo details/lock.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/lock.lo -MD -MP -MF details/.deps/lock.Tpo -c details/lock.cxx  -fPIC -DPIC -o details/.libs/lock.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/lock.lo -MD -MP -MF details/.deps/lock.Tpo -c details/lock.cxx -o details/lock.o >/dev/null 2>&1
+depbase=`echo details/mutex.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/mutex.lo -MD -MP -MF $depbase.Tpo -c -o details/mutex.lo details/mutex.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/mutex.lo -MD -MP -MF details/.deps/mutex.Tpo -c details/mutex.cxx  -fPIC -DPIC -o details/.libs/mutex.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/mutex.lo -MD -MP -MF details/.deps/mutex.Tpo -c details/mutex.cxx -o details/mutex.o >/dev/null 2>&1
+depbase=`echo details/shared-ptr/base.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/shared-ptr/base.lo -MD -MP -MF $depbase.Tpo -c -o details/shared-ptr/base.lo details/shared-ptr/base.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/shared-ptr/base.lo -MD -MP -MF details/shared-ptr/.deps/base.Tpo -c details/shared-ptr/base.cxx  -fPIC -DPIC -o details/shared-ptr/.libs/base.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/shared-ptr/base.lo -MD -MP -MF details/shared-ptr/.deps/base.Tpo -c details/shared-ptr/base.cxx -o details/shared-ptr/base.o >/dev/null 2>&1
+depbase=`echo details/posix/exceptions.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/posix/exceptions.lo -MD -MP -MF $depbase.Tpo -c -o details/posix/exceptions.lo details/posix/exceptions.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/posix/exceptions.lo -MD -MP -MF details/posix/.deps/exceptions.Tpo -c details/posix/exceptions.cxx  -fPIC -DPIC -o details/posix/.libs/exceptions.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/posix/exceptions.lo -MD -MP -MF details/posix/.deps/exceptions.Tpo -c details/posix/exceptions.cxx -o details/posix/exceptions.o >/dev/null 2>&1
+depbase=`echo details/posix/thread.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I'..' -I'..' -DLIBODB_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/posix/thread.lo -MD -MP -MF $depbase.Tpo -c -o details/posix/thread.lo details/posix/thread.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/posix/thread.lo -MD -MP -MF details/posix/.deps/thread.Tpo -c details/posix/thread.cxx  -fPIC -DPIC -o details/posix/.libs/thread.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBODB_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/posix/thread.lo -MD -MP -MF details/posix/.deps/thread.Tpo -c details/posix/thread.cxx -o details/posix/thread.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=link /usr/bin/g++  -g3 -gdwarf-2 -D_REENTRANT  -release 2.4 -no-undefined  -o libodb.la -rpath /usr/local/lib callback.lo exceptions.lo database.lo vector-impl.lo connection.lo lazy-ptr-impl.lo prepared-query.lo query-dynamic.lo result.lo schema-catalog.lo section.lo session.lo statement.lo statement-processing.lo tracer.lo transaction.lo details/buffer.lo details/condition.lo details/lock.lo details/mutex.lo details/shared-ptr/base.lo details/posix/exceptions.lo details/posix/thread.lo   -lpthread
+libtool: link: /usr/bin/g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbeginS.o  .libs/callback.o .libs/exceptions.o .libs/database.o .libs/vector-impl.o .libs/connection.o .libs/lazy-ptr-impl.o .libs/prepared-query.o .libs/query-dynamic.o .libs/result.o .libs/schema-catalog.o .libs/section.o .libs/session.o .libs/statement.o .libs/statement-processing.o .libs/tracer.o .libs/transaction.o details/.libs/buffer.o details/.libs/condition.o details/.libs/lock.o details/.libs/mutex.o details/shared-ptr/.libs/base.o details/posix/.libs/exceptions.o details/posix/.libs/thread.o   -lpthread -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/i686-linux-gnu/4.8/crtendS.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o    -Wl,-soname -Wl,libodb-2.4.so -o .libs/libodb-2.4.so
+libtool: link: (cd ".libs" && rm -f "libodb.so" && ln -s "libodb-2.4.so" "libodb.so")
+copying selected object files to avoid basename conflicts...
+libtool: link: ln details/posix/exceptions.o .libs/libodb.lax/lt1-exceptions.o || cp details/posix/exceptions.o .libs/libodb.lax/lt1-exceptions.o
+libtool: link: ar cru .libs/libodb.a callback.o exceptions.o database.o vector-impl.o connection.o lazy-ptr-impl.o prepared-query.o query-dynamic.o result.o schema-catalog.o section.o session.o statement.o statement-processing.o tracer.o transaction.o details/buffer.o details/condition.o details/lock.o details/mutex.o details/shared-ptr/base.o .libs/libodb.lax/lt1-exceptions.o details/posix/thread.o
+libtool: link: ranlib .libs/libodb.a
+libtool: link: rm -fr .libs/libodb.lax
+libtool: link: ( cd ".libs" && rm -f "libodb.la" && ln -s "../libodb.la" "libodb.la" )
+make[2]: uscita dalla directory "/home/iot/NetBeansProjects/libodb-2.4.0/odb"
+make[1]: uscita dalla directory "/home/iot/NetBeansProjects/libodb-2.4.0/odb"
+make[1]: ingresso nella directory "/home/iot/NetBeansProjects/libodb-2.4.0"
+make[1]: Nessuna operazione da eseguire per "all-am".
+make[1]: uscita dalla directory "/home/iot/NetBeansProjects/libodb-2.4.0"
